@@ -25,7 +25,7 @@ end
 
 include(gmcommon)
 
-CreateWorkspace({ name = "fakeonline", allow_debug = false, toolset = compiler })
+CreateWorkspace({ name = "query", allow_debug = false, toolset = compiler })
 	filter("system:macosx")
 		buildoptions("-mmacosx-version-min=10.5")
 		linkoptions("-mmacosx-version-min=10.5")
