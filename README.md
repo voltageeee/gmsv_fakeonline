@@ -23,8 +23,7 @@ To run this, your machine should have a 32-bit version of libcurl4 installed on 
 
 Also, for the server to display the fake player count properly, it must have at least one real player on it.
 This can be achieved with: https://github.com/Leystryku/leysourceengineclient
-There is not much to fix, if you are not dumb - you will do it in no time.
-If you are dumb, though, please refrain from using this module at all.
+There is not much to fix.
 
 And finally, this modules requiers:
 https://github.com/danielga/garrysmod_common.
