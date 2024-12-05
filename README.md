@@ -2,7 +2,7 @@
 Fixed gmsv_query
 
 All credits go to this guys: https://github.com/DuckyC/gmsv_query
-All I did was add a country detection to block A2S requests from non-CIS countries.
+All I did was add a country detection to block A2S requests from non-CIS countries and fix an issue with server instance not being assigned to a pointer properly.
 I implemented this feature to reduce ban possibility, obviously.
 However, it does not exclude it at all.
 Search for a function "ISFromCISRegion" in netfilter.cpp to change the countries you want to accept requests from.
